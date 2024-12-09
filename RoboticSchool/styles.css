@@ -1,0 +1,168 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4A020;
+    color: white;
+    padding: 0px 20px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-content .btnn {
+    display: inline-block;
+    background-color: #0058ac;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.learning-prompt {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: rgb(147, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+    
+}
+
+.learning-prompt h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#tit{
+    color: #0058ac;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#promo{
+    color: #0058ac;
+}
+
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.map-section, .contact-section {
+    width: 48%;
+}
+
+.map-section iframe {
+    width: 100%;
+    border: none;
+}
+
+.contact-section .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-logo {
+    max-height: 80%;
+    width: 80%;
+    margin-bottom: 10px;
+    
+}
+
+/* Estilo para el icono flotante de WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;  /* A 20px desde el fondo de la pantalla */
+    right: 20px;   /* A 20px desde la parte derecha de la pantalla */
+    z-index: 1000; /* Asegura que el icono quede encima de otros elementos */
+    border-radius: 50%;
+    background-color: #25D366;  /* Color de fondo del icono (verde de WhatsApp) */
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-icon img {
+    width: 60px;  /* Tamaño del icono */
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* Efecto hover (cuando el usuario pasa el ratón por encima) */
+.whatsapp-icon:hover {
+    background-color: #128C7E;  /* Color más oscuro cuando el mouse pasa por encima */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
